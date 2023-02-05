@@ -7,6 +7,7 @@ const client = new Client ( { intents: [
     GatewayIntentBits.MessageContent
 ]})
 
+
 const { Configuration , OpenAIApi } = require('openai');
 const configuration = new Configuration({
     organization: process.env.OPENAI_ORG,
